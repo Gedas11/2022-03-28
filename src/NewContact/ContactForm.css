@@ -1,0 +1,33 @@
+.new-contact__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .new-contact__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #fff;
+  }
+  
+  .new-contact__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.365) ;
+    border: 1px solid rgb(182, 35, 35);
+    width: 20rem;
+    max-width: 100%;
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  
+  .new-contact__actions {
+    text-align: right;
+  }
+  .label{
+    color: #fff;
+  }
