@@ -10,9 +10,9 @@ const ContactList = (props) => {
 
   return (
     <ul className="contact-list">
-      {props.item.map((contact) => (
+      {props.item.map((contact, i) => (
         <ContactItem
-          
+          key={i}
           name={contact.name}
           surname={contact.surname}
           address={contact.address}

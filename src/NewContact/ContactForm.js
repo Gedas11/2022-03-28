@@ -25,7 +25,7 @@ const ContactForm = (props) => {
       adress: enteredAdress,
     };
 
-    props.onSaveContactData(contactData);
+    props.onSave(contactData);
     setEnteredName("");
     setEnteredSurname("");
     setEnteredAddress("");
